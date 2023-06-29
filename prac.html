@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 이미지 링크 생성-->
+    <a href="https://www.youtube.com"><img src="./resources/girl.png" width="300" height = "300"/></a>
+
+    <!-- table 생성-->
+    <table border='3'>
+        <tr>
+            <th>HEAD</th>
+            <th>BODY</th>
+        </tr>
+        <tr>
+            <td>content1</td>
+            <td>content1</td>
+        </tr>
+
+        <!--action은 처리할 서버의 URL-->
+        <form action="regiter" method="get" enctype="multipart/form-data">
+        <!-- name은 서버에서, id는 클라이언트에서 사용하기 위함-->
+            </br>
+            <label>이름 : <input type ="text" name="name" id="name"/></label>
+            <br/>
+            <input name = "gender" type = "radio"/>남자
+            <input name = "gender" type = "radio" checked/>여자
+            </br>
+            <button>보내기</button>
+
+            <div>블록</div> <!-- 옆에 올 수 없음-->
+            <span>인라인</span> <!-- 바로 옆으로 작성됨-->
+            <span>인라인</span>
+            <iframe src="http://localhost:52330/frontend0629/resources/girl.png" width="500" height="300"></iframe>
+        </form>
+    </table>
+</body>
+</html>

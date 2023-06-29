@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--a.외부 스타일시트 파일 사용-->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!--b. 문서 내에서 스타일을 지정-->
+    <style>
+        .paragraph{
+            color:blueviolet
+        }
+        p:active{ /*마우스를 올리면*/
+            color:#ecc512
+        }
+        div{
+            color:blue;
+        }
+        #here{
+            color:brown
+        }
+    </style>
+</head>
+<body>
+    <p>안녕하세요</p>
+    <div>반갑습니다</div>
+    <span class="paragraph">반갑습니다</span>
+    <p id = "here"> 이 부분만 </p>
+    <!-- c. inline sheet-->
+    <span style="color:red">환영합니다</span> 
+</body>
+</html>
